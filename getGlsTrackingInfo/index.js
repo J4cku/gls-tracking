@@ -29,7 +29,7 @@ exports.getGlsTrackingInfo = (req, res) => {
 
         res.status(200).send(
             {
-                trackingNumber: res.query.tracking,
+                trackingNumber: req.query.tracking,
                 status: history[0].evtDscr,
                 status_description: history[0].evtDscr,
                 updated_at: history[0].date + 'T' + history[0].time,
