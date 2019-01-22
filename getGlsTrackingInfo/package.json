@@ -2,8 +2,6 @@
   "name": "getGlsTrackingInfo",
   "version": "0.0.1",
   "dependencies": {
-    "@google-cloud/pubsub": "^0.22.0",
-    "@google-cloud/bigquery": "^2.0.0",
-    "@google-cloud/firestore": "^0.19.0"
+    "xhr-request": "^1.1.0"
   }
 }
